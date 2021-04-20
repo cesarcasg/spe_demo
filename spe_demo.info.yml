@@ -1,0 +1,8 @@
+name: 'spe_demo Emails and Campaigns'
+type: module
+description: 'UI to build custom emails send using a custom email interface with mailgun.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'SPE'
+#dependencies:
+#  - drupal:mailgun

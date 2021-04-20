@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains spe_demo.module.
+ */
+
+use Drupal\Core\Render\Element;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\file\FileInterface;
+use Drupal\node\Entity\Node;
+use Drupal\user\Entity\User;
+use Drupal\views\Views;
+use Drupal\views\ViewExecutable;
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_help().
+ */
+function spe_demo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the truthindata_emails module.
+    case 'help.page.spe_demo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('An integration with mailgun and custom UI to build custom emails send using a custom email interface with mailgun.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

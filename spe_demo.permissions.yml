@@ -1,0 +1,19 @@
+add spe_demo email entity entities:
+  title: 'Create new spe_demo Email Entity entities'
+
+administer spe_demo email entity entities:
+  title: 'Administer spe_demo Email Entity entities'
+  description: 'Allow to access the administration form to configure spe_demo Email Entity entities.'
+  restrict access: true
+
+delete spe_demo email entity entities:
+  title: 'Delete spe_demo Email Entity entities'
+
+edit spe_demo email entity entities:
+  title: 'Edit spe_demo Email Entity entities'
+
+view published spe_demo email entity entities:
+  title: 'View published spe_demo Email Entity entities'
+
+view unpublished spe_demo email entity entities:
+  title: 'View unpublished spe_demo Email Entity entities'

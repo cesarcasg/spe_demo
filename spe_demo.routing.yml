@@ -1,0 +1,7 @@
+spe_demo.custom_email:
+  path: '/admin/config/spe_demo/custom_email'
+  defaults:
+    _controller: '\Drupal\spe_demo\Controller\CustomMarketingMailController::myEmail'
+    _title: 'spe_demo Emails SF'
+  requirements:
+    _permission: 'administer spe_demo email entity entities'
