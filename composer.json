@@ -1,0 +1,13 @@
+{
+    "name": "cesarcasg/spe_demo",
+    "description": "A Drupal 8 module to interact",
+    "type": "sony-drupal-module",
+    "authors": [
+        {
+            "name": "Cesar Saavedra",
+            "email": "saavedra.cesar"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
